@@ -3,6 +3,9 @@ Multisite plugin for e107 v2.1.5 or higher
 
 ##Installation
 
+###  config file
+add require_once($PLUGINS_DIRECTORY . "multisite/multisite.php");  to e107 config file
+
 ### Option 1. Subdirectory sites
 If you plan to have multiple 'sites' as subdirectories. 
 (eg. ```mydomain.com/site1/```, ```mydomain/site2/```) it is recommended 
